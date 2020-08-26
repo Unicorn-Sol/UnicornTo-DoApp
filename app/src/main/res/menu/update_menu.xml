@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/done"
+        android:iconTint="@color/white"
+        android:id="@+id/update_done_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_done_24"/>
+    <item android:title="@string/delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:iconTint="@color/white"
+        android:id="@+id/update_delete_menu"
+        app:showAsAction="ifRoom"
+        />
+</menu>
